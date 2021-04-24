@@ -1,0 +1,22 @@
+.carousel-control-prev, .carousel-control-next{
+    width: 60px;
+}
+.mi-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.mi-caption.abajo{
+    justify-content: end;
+}
+.mi-caption h5{
+    font-size: 2.25rem;
+}
+/* Para que el texto del Carousel en mobile se vea abajo y en desktop en el medio  */
+@media all and (max-width: 768px){
+    .mi-caption{
+        justify-content: end;
+    }
+
+}
